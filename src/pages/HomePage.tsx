@@ -31,7 +31,7 @@ export function HomePage() {
       <header>
         <p className="kicker">{t('lawDate')}</p>
         <div className="masthead">
-          <img className="brand-mark mast-mark" src="/icon.svg" alt="" width={56} height={56} />
+          <img className="brand-mark mast-mark" src={`${import.meta.env.BASE_URL}icon.svg`} alt="" width={56} height={56} />
           <h1 className="h1 brand-name">{t('appName')}</h1>
         </div>
         <p className="lead">{t('tagline')}</p>

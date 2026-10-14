@@ -5,9 +5,9 @@ let workerPromise: Promise<Worker> | null = null;
 function localWorker(): Promise<Worker> {
   if (!workerPromise) {
     workerPromise = createWorker('ron', 1, {
-      workerPath: '/tesseract/worker.min.js',
-      corePath: '/tesseract-core',
-      langPath: '/tessdata',
+      workerPath: `${import.meta.env.BASE_URL}tesseract/worker.min.js`,
+      corePath: `${import.meta.env.BASE_URL}tesseract-core`,
+      langPath: `${import.meta.env.BASE_URL}tessdata`,
       gzip: true,
       workerBlobURL: false,
     }).catch((error: unknown) => {

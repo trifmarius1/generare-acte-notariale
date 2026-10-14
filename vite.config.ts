@@ -9,6 +9,16 @@ import type { Connect } from 'vite';
 
 const CORE_FILE = /^tesseract-core(?:-relaxedsimd|-simd)?-lstm\.wasm(?:\.js)?$/;
 
+/** `/` la lucru local. Pe GitHub Pages, calea depozitului, cu / la final. */
+function siteBase(): string {
+  const raw = process.env.PAGES_BASE?.trim();
+  if (!raw || raw === '/') return '/';
+  const withSlash = raw.startsWith('/') ? raw : `/${raw}`;
+  return withSlash.endsWith('/') ? withSlash : `${withSlash}/`;
+}
+
+const site = siteBase();
+
 function localTesseract(): Plugin {
   const workerFile = path.resolve('node_modules/tesseract.js/dist/worker.min.js');
   const coreDir = path.resolve('node_modules/tesseract.js-core');
@@ -69,6 +79,7 @@ function localTesseract(): Plugin {
 }
 
 export default defineConfig({
+  base: site,
   plugins: [
     localTesseract(),
     legalAgent(),
@@ -94,7 +105,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,woff2,gz}'],
         globIgnores: ['**/tesseract/**', '**/tesseract-core/**'],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
-        navigateFallback: 'index.html',
+        navigateFallback: `${site}index.html`,
       },
     }),
   ],

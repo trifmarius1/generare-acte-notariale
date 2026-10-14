@@ -38,7 +38,7 @@ export function Shell() {
       <LanguageSwitch />
       <aside className="side">
         <div className="brand">
-          <img className="brand-mark" src="/icon.svg" alt="" width={46} height={46} />
+          <img className="brand-mark" src={`${import.meta.env.BASE_URL}icon.svg`} alt="" width={46} height={46} />
           <div>
             <strong>{t('appName')}</strong>
             <span>{t('lawDate')}</span>
