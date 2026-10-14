@@ -1,0 +1,20 @@
+Nedemnitatea deschide reprezentarea
+Deces 2024-03-01, finalizare 2026-02-01, domiciliu Cluj-Napoca, strada Horea nr 10.
+Clasa 1. Activ brut 240000. Pasiv 0. Net 240000.
+Net imobiliar 240000. Comunitate reținută de soț 0. Uz casnic 0.
+Rezervă 1/2. Disponibil 1/2. Depășire legate 0/1.
+Onorariu minimal 2692.49 lei, arhivare 45 lei. OMJ nr. 177/C/2024, anexa nr. 3 — procedura succesorală. Arhivare: 45 lei (dosar cu termen de păstrare permanent).
+Impozit: Succesiunea este finalizată în termen de 2 ani de la deces. Art. 111 alin. (3) din Codul fiscal: nu se datorează impozitul de 1%. Sumă 0 lei.
+Cote:
+- Sorin Mureșan: 1/2, rezervă 1/4, net 120000
+- Luca Mureșan: 1/2, rezervă 1/4, net 120000
+Controale:
+- da: Suma cotelor legale. Suma cotelor este 1/1.
+- da: Suma valorilor pe moștenitori. Valorile nete, după rotunjirea la ban, acoperă activul net.
+- da: Rezerva nu depășește moștenirea. Rezervă totală 1/2, cotitate disponibilă 1/2.
+- da: Liberalitățile față de cotitatea disponibilă. Nu au fost introduse legate.
+Explicație: Clasa I, descendenții, înlătură clasele următoare (art. 963 și art. 975 C. civ.).
+Explicație: Rezerva fiecărui moștenitor rezervatar este jumătate din cota legală (art. 1088). Cotitatea disponibilă este o jumătate (1/2).
+Avertisment: A trecut mai mult de un an de la deces. Termenul de opțiune succesorală este de un an (art. 1103), cu excepțiile legale pentru moștenitorii care nu au cunoscut deschiderea moștenirii. Verificați acceptarea, expresă sau tacită, înainte de a-i trece ca renunțători.
+Avertisment: Procedura succesorală este de competența notarului din circumscripția tribunalului ultimului domiciliu al defunctului și se soluționează numai la sediul biroului (Legea nr. 36/1995, art. 15).
+Calculele coincid cu cotele legale verificate manual și cu grilele din motor.

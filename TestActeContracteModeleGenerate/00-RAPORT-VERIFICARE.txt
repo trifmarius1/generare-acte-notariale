@@ -1,0 +1,169 @@
+RAPORT DE VERIFICARE — PROIECTE GENERATE LOCAL
+Data lucrării: 14 octombrie 2026. Legea folosită de motor este cea verificată la 14 octombrie 2026.
+Fiecare fișier este proiect de lucru, nu înscris autentic.
+
+== 01-vanzare-propriu-integral ==
+Model: Contract de vânzare — imobil. Recunoscut la Verifică: vanzare-imobil.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articolele de 3–4 cifre găsite sunt în baza locală.
+
+== 02-vanzare-comun-partial-ipoteca ==
+Model: Contract de vânzare — imobil. Recunoscut la Verifică: vanzare-imobil.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 1684.
+
+== 03-vanzare-cota-credit ==
+Model: Contract de vânzare — imobil. Recunoscut la Verifică: vanzare-imobil.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articolele de 3–4 cifre găsite sunt în baza locală.
+
+== 04-vanzare-extravilan ==
+Model: Contract de vânzare — imobil. Recunoscut la Verifică: vanzare-imobil.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articolele de 3–4 cifre găsite sunt în baza locală.
+
+== 05-donatie-scutit ==
+Model: Contract de donație — imobil. Recunoscut la Verifică: donatie-imobil.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 985.
+
+== 06-donatie-impozabil ==
+Model: Contract de donație — imobil. Recunoscut la Verifică: donatie-imobil.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 985.
+
+== 07-procura-speciala ==
+Model: Procură autentică. Recunoscut la Verifică: procura.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 2009.
+
+== 08-procura-pensie ==
+Model: Procură autentică. Recunoscut la Verifică: procura.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 2009.
+
+== 09-procura-incasare-pret ==
+Model: Procură autentică. Recunoscut la Verifică: procura.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 2009.
+
+== 10-antecontract ==
+Model: Promisiune bilaterală de vânzare. Recunoscut la Verifică: antecontract.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 1279, art. 1549, art. 1669.
+
+== 11-antecontract-extravilan ==
+Model: Promisiune bilaterală de vânzare. Recunoscut la Verifică: antecontract.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 1549, art. 1279, art. 1669.
+
+== 12-intretinere ==
+Model: Contract de întreținere. Recunoscut la Verifică: intretinere.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 2254.
+
+== 13-conventie-separatie ==
+Model: Convenție matrimonială. Recunoscut la Verifică: conventie.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 312, art. 329, art. 366.
+
+== 14-conventie-conventionala ==
+Model: Convenție matrimonială. Recunoscut la Verifică: conventie.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 312, art. 329, art. 366.
+
+== 15-conventie-legala ==
+Model: Convenție matrimonială. Recunoscut la Verifică: conventie.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 312, art. 329, art. 366.
+
+== 16-testament-executor-martori ==
+Model: Testament autentic. Recunoscut la Verifică: testament.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 1088.
+
+== 17-testament-fara-martori ==
+Model: Testament autentic. Recunoscut la Verifică: testament.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 1088.
+
+== 18-acceptare-adult ==
+Model: Declarație de acceptare a moștenirii. Recunoscut la Verifică: acceptare.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 1102.
+
+== 19-acceptare-minor ==
+Model: Declarație de acceptare a moștenirii. Recunoscut la Verifică: acceptare.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 1102.
+
+== 20-renuntare ==
+Model: Declarație de renunțare la moștenire. Recunoscut la Verifică: renuntare.
+Verifică: structură prezentă, câmpurile completate se regăsesc, regenerarea păstrează modelul.
+Mențiuni: info: Există spații duble. Alinierea finală se face în original.
+Articole citate și necunoscute în baza locală (nu au fost șterse): art. 1123.
+
+
+SUCCESIUNI
+
+01-sot-si-un-copil: Soț și un copil, bun comun, finalizată în 2 ani. cote, masă, onorariu și impozit verificate.
+02-doi-copii-fara-sot: Doi copii, fără soț. cote, masă, onorariu și impozit verificate.
+03-sot-parinti-frate: Soț, ambii părinți și un frate, art. 972 și art. 978. cote, masă, onorariu și impozit verificate.
+04-sot-si-un-parinte: Soț și un singur părinte. cote, masă, onorariu și impozit verificate.
+05-sot-si-unchi: Soț și un unchi, clasa a IV-a. cote, masă, onorariu și impozit verificate.
+06-numai-sotul: Numai soțul supraviețuitor. cote, masă, onorariu și impozit verificate.
+07-reprezentare-nepoti: Reprezentarea copilului predecedat. cote, masă, onorariu și impozit verificate.
+08-renuntare-fara-reprezentare: Renunțarea nu deschide reprezentarea. cote, masă, onorariu și impozit verificate.
+09-nedemn-cu-reprezentare: Nedemnitatea deschide reprezentarea. cote, masă, onorariu și impozit verificate.
+10-succesiune-vacanta: Nimeni nu vine la moștenire. cote, masă, onorariu și impozit verificate.
+11-masa-datorii-uz-casnic-legat: Comunitate, datorie, uz casnic și legat peste disponibil. cote, masă, onorariu și impozit verificate.
+12-sot-fara-alta-locuinta: Soț fără altă locuință, art. 973, cote neschimbate. cote, masă, onorariu și impozit verificate.
+13-sot-si-doi-copii: Soț și doi copii. cote, masă, onorariu și impozit verificate.
+14-finalizata-dupa-doi-ani: Finalizată după 2 ani: impozit 1% pe netul imobiliar. cote, masă, onorariu și impozit verificate.
+15-scutirea-170-nu-mai-acopera: Termenul de 2 ani cădea în fereastra Legii 170/2026, dar finalizarea este după 30 septembrie 2026. cote, masă, onorariu și impozit verificate.
+
+
+CALCULE FISCALE ȘI ONORARII
+
+DA: Onorariu imobil la 100.000 lei = 1.729,99 lei, arhivare 45
+DA: Pragul 20.000 lei rămâne 440 lei
+DA: 20.001 lei rămâne 440 lei, fiind chiar baza tranșei
+DA: 20.002 lei este 440,02 lei
+DA: TVA nu se adaugă dacă biroul nu este plătitor
+DA: TVA 21% la 1.729,99 lei este 363,30 lei
+DA: Deținere 2018–2026: bază 250.000, cotă 1%, impozit 2.500
+DA: Deținere de 2 ani: cotă 3%, impozit 7.500
+DA: Exact 3 ani rămâne 3%, pentru că legea spune până la 3 ani inclusiv
+DA: Grila mai mare decât prețul urcă baza la 300.000 și impozitul la 3.000
+DA: O zi peste 3 ani trece la 1%
+DA: Succesiune finalizată în 2 ani: impozit 0
+DA: Succesiune după 2 ani, la 14 octombrie 2026: 1% din 180.000 = 1.800
+DA: Legea 170/2026 nu mai scutește o finalizare din 14 octombrie 2026
+DA: Aceeași moștenire, finalizată la 30 septembrie 2026, era încă în scutirea punctuală
+DA: Procura de reprezentare rămâne 100 lei plus arhivare 20
+DA: Procura de pensie rămâne 8 lei plus arhivare 20
+DA: Succesiunea de 200.000 lei are onorariu minimal 2.352,49 lei
+
+Limite păstrate: nu este codificat onorariul din anexa nr. 2 pct. XIV, nici tariful ANCPI, nici raportul donațiilor, nici reducerile din anexa nr. 5.
+Impozitul și onorariul nu se amestecă. TVA nu se pune pe impozit.
+
+Nicio problemă de structură, de câmp sau de calcul pe modelele generate.

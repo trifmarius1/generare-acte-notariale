@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content" />
+    <meta
+      name="description"
+      content="Aplicație locală de asistență pentru notarul public din România. Actele și datele personale nu părăsesc dispozitivul."
+    />
+    <meta name="theme-color" content="#e7f7f4" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <title>ACTE NOTARIALE — asistență locală</title>
+    <script>
+      try {
+        var saved = JSON.parse(localStorage.getItem('notariat-preferinte') || '{}').state || {};
+        if (saved.language === 'en' || saved.language === 'hu' || saved.language === 'ro') {
+          document.documentElement.lang = saved.language;
+        }
+        if (saved.theme === 'dark') {
+          document.documentElement.classList.add('dark');
+          document.documentElement.style.colorScheme = 'dark';
+          var themeMeta = document.querySelector('meta[name="theme-color"]');
+          if (themeMeta) themeMeta.setAttribute('content', '#000000');
+        }
+      } catch (error) {
+        /* preferințele lipsă rămân pe tema deschisă */
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

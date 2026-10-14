@@ -1,0 +1,24 @@
+
+CALCULE FISCALE ȘI ONORARII
+
+DA: Onorariu imobil la 100.000 lei = 1.729,99 lei, arhivare 45
+DA: Pragul 20.000 lei rămâne 440 lei
+DA: 20.001 lei rămâne 440 lei, fiind chiar baza tranșei
+DA: 20.002 lei este 440,02 lei
+DA: TVA nu se adaugă dacă biroul nu este plătitor
+DA: TVA 21% la 1.729,99 lei este 363,30 lei
+DA: Deținere 2018–2026: bază 250.000, cotă 1%, impozit 2.500
+DA: Deținere de 2 ani: cotă 3%, impozit 7.500
+DA: Exact 3 ani rămâne 3%, pentru că legea spune până la 3 ani inclusiv
+DA: Grila mai mare decât prețul urcă baza la 300.000 și impozitul la 3.000
+DA: O zi peste 3 ani trece la 1%
+DA: Succesiune finalizată în 2 ani: impozit 0
+DA: Succesiune după 2 ani, la 14 octombrie 2026: 1% din 180.000 = 1.800
+DA: Legea 170/2026 nu mai scutește o finalizare din 14 octombrie 2026
+DA: Aceeași moștenire, finalizată la 30 septembrie 2026, era încă în scutirea punctuală
+DA: Procura de reprezentare rămâne 100 lei plus arhivare 20
+DA: Procura de pensie rămâne 8 lei plus arhivare 20
+DA: Succesiunea de 200.000 lei are onorariu minimal 2.352,49 lei
+
+Limite păstrate: nu este codificat onorariul din anexa nr. 2 pct. XIV, nici tariful ANCPI, nici raportul donațiilor, nici reducerile din anexa nr. 5.
+Impozitul și onorariul nu se amestecă. TVA nu se pune pe impozit.
