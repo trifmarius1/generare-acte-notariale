@@ -1,6 +1,7 @@
 import type { ActDocument, OfficeProfile } from '@/domain/types';
 import { checkCnp } from '@/lib/cnp';
 import { computeSuccession, type HeirInput, type SuccessionInput } from '@/lib/succession';
+import { otherModels } from '@/modules/otherActs';
 import { successionCertificate, successionClosing } from '@/modules/successionDoc';
 
 const DATE = '2026-10-14';
@@ -78,7 +79,15 @@ export interface SuccessionModel {
   build: (office: OfficeProfile) => ActDocument;
 }
 
-export type LibraryModel = ActModel | SuccessionModel;
+export interface ProcedureModel {
+  kind: 'procedure';
+  id: string;
+  title: string;
+  blurb: string;
+  build: (office: OfficeProfile) => ActDocument;
+}
+
+export type LibraryModel = ActModel | SuccessionModel | ProcedureModel;
 
 const seller = person('v', 'Mureșan Andrei', P.andrei, '100001', home('Memorandumului', '28'), 'căsătorit');
 const buyer = person('c', 'Popescu Elena-Maria', P.elena, '100002', home('Horea', '10'), 'necăsătorită');
@@ -562,6 +571,66 @@ const successionCases: { id: string; title: string; blurb: string; input: Succes
       assets: [{ id: 'a', label: 'Apartament propriu', category: 'imobil', regime: 'propriu-defunct', value: 100000 }],
     }),
   },
+  {
+    id: 's11-sot-parinte',
+    title: 'Succesiune — soț și un părinte',
+    blurb: 'Nu sunt descendenți și nu sunt frați. Soțul și părintele iau câte 1/2.',
+    input: succession({
+      heirs: [
+        heir({ id: 's', name: 'Ioana Mureșan', kind: 'spouse', status: 'accepts', degree: 0 }),
+        heir({ id: 't', name: 'Vasile Mureșan', kind: 'parent', status: 'accepts', degree: 1 }),
+      ],
+      assets: [{ id: 'a', label: 'Apartament propriu', category: 'imobil', regime: 'propriu-defunct', value: 200000 }],
+    }),
+  },
+  {
+    id: 's12-numai-sotul',
+    title: 'Succesiune — numai soțul',
+    blurb: 'Nu vine nicio rudă din cele patru clase. Soțul culege întreaga moștenire.',
+    input: succession({
+      heirs: [heir({ id: 's', name: 'Ioana Mureșan', kind: 'spouse', status: 'accepts', degree: 0 })],
+      assets: [{ id: 'a', label: 'Apartament propriu', category: 'imobil', regime: 'propriu-defunct', value: 150000 }],
+    }),
+  },
+  {
+    id: 's13-nedemn',
+    title: 'Succesiune — nedemnitatea deschide reprezentarea',
+    blurb: 'Copilul nedemn este reprezentat de fiul său. Renunțarea nu ar fi deschis aceeași reprezentare.',
+    input: succession({
+      heirs: [
+        heir({ id: 'c1', name: 'Sorin Mureșan', kind: 'descendant', status: 'accepts', degree: 1 }),
+        heir({ id: 'c2', name: 'Ana Mureșan', kind: 'descendant', status: 'unworthy', degree: 1 }),
+        heir({ id: 'g', name: 'Luca Mureșan', kind: 'descendant', status: 'accepts', degree: 2, representsId: 'c2' }),
+      ],
+      assets: [{ id: 'a', label: 'Apartament propriu', category: 'imobil', regime: 'propriu-defunct', value: 240000 }],
+    }),
+  },
+  {
+    id: 's14-locuinta',
+    title: 'Succesiune — soț fără altă locuință',
+    blurb: 'Art. 973 recunoaște dreptul de abitație. Cotele rămân 1/4 pentru soț și 3/4 pentru copil.',
+    input: succession({
+      spouseHasAnotherHome: false,
+      heirs: [
+        heir({ id: 's', name: 'Ioana Mureșan', kind: 'spouse', status: 'accepts', degree: 0 }),
+        heir({ id: 'c', name: 'Sorin Mureșan', kind: 'descendant', status: 'accepts', degree: 1 }),
+      ],
+      assets: [{ id: 'a', label: 'Casa în care a locuit', category: 'imobil', regime: 'propriu-defunct', value: 200000 }],
+    }),
+  },
+  {
+    id: 's15-sot-doi-copii',
+    title: 'Succesiune — soț și doi copii',
+    blurb: 'Soțul ia 1/4. Cei doi copii împart restul, câte 3/8.',
+    input: succession({
+      heirs: [
+        heir({ id: 's', name: 'Ioana Mureșan', kind: 'spouse', status: 'accepts', degree: 0 }),
+        heir({ id: 'c1', name: 'Sorin Mureșan', kind: 'descendant', status: 'accepts', degree: 1 }),
+        heir({ id: 'c2', name: 'Ana Mureșan', kind: 'descendant', status: 'accepts', degree: 1 }),
+      ],
+      assets: [{ id: 'a', label: 'Apartament propriu', category: 'imobil', regime: 'propriu-defunct', value: 400000 }],
+    }),
+  },
 ];
 
 function successionDocument(input: SuccessionInput, part: 'certificat' | 'incheiere', office: OfficeProfile): ActDocument {
@@ -586,4 +655,4 @@ export const successionModels: SuccessionModel[] = successionCases.flatMap((item
   },
 ]);
 
-export const libraryModels: LibraryModel[] = [...actModels, ...successionModels];
+export const libraryModels: LibraryModel[] = [...actModels, ...successionModels, ...otherModels];
