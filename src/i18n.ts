@@ -219,6 +219,13 @@ const ro = {
   exemptPossession: 'Posesie în cartea funciară',
   calcFailed: 'Calculul nu a putut fi făcut.',
   legalNotesRo: 'Notele juridice de mai jos rămân în limba română.',
+  codesTitle: 'Coduri în vigoare',
+  codesLead:
+    'Manualul electronic este textul de pe pagina oficială. Nu este copiat aici, ca să nu rămână o copie învechită. Data de 14 octombrie 2026 de la începutul paginii rămâne data notelor și a calculelor.',
+  codesHonest:
+    'Fiecare cod a fost confruntat la 15 octombrie 2026 cu două pagini oficiale: forma consolidată și un al doilea act. Am verificat identitatea, publicarea în Monitorul Oficial și că nu este codul abrogat. Nu am recitit fiecare articol. În ziua actului, pagina se deschide din nou.',
+  codesChecked: 'Confruntate la 15 octombrie 2026',
+  codesOpen: 'Deschide forma consolidată',
 };
 
 export type MessageKey = keyof typeof ro;
@@ -441,6 +448,13 @@ const en: Record<MessageKey, string> = {
   exemptPossession: 'Possession in the land book',
   calcFailed: 'The calculation could not be completed.',
   legalNotesRo: 'The legal notes below stay in Romanian.',
+  codesTitle: 'Codes in force',
+  codesLead:
+    'The electronic manual is the text on the official page. It is not copied here, so a stale copy does not remain. The date 14 October 2026 at the top of the page remains the date of the notes and of the calculations.',
+  codesHonest:
+    'Each code was cross-checked on 15 October 2026 against two official pages: the consolidation and a second act. The check covered identity, publication in the Official Gazette, and that it is not the repealed code. Not every article was re-read. On the day of the deed, open the page again.',
+  codesChecked: 'Cross-checked on 15 October 2026',
+  codesOpen: 'Open the consolidated text',
 };
 
 const hu: Record<MessageKey, string> = {
@@ -661,6 +675,13 @@ const hu: Record<MessageKey, string> = {
   exemptPossession: 'Telekkönyvi birtok',
   calcFailed: 'A számítást nem lehetett elvégezni.',
   legalNotesRo: 'Az alábbi jogi megjegyzések románul maradnak.',
+  codesTitle: 'Hatályos törvénykönyvek',
+  codesLead:
+    'Az elektronikus kézikönyv a hivatalos oldal szövege. Ide nincs bemásolva, hogy ne maradjon elavult másolat. A lap tetején lévő 2026. október 14. a jegyzetek és a számítások dátuma marad.',
+  codesHonest:
+    'Minden törvénykönyvet 2026. október 15-én két hivatalos oldallal vetettünk össze: az egységes szerkezettel és egy második jogszabállyal. Az ellenőrzés az azonosítóra, a Hivatalos Közlönyben való közzétételre és arra terjedt ki, hogy nem a hatályon kívül helyezett törvénykönyv. Nem olvastuk újra minden cikkét. Az okirat napján nyissa meg újra az oldalt.',
+  codesChecked: 'Összevetve: 2026. október 15.',
+  codesOpen: 'Az egységes szerkezet megnyitása',
 };
 
 export const dictionaries: Record<Lang, Record<MessageKey, string>> = { ro, en, hu };

@@ -15,20 +15,22 @@ export function foldSearch(value: string): string {
     .trim();
 }
 
-export function matchesKnowledge(query: string, entry: KnowledgeEntry): boolean {
+export function matchesText(query: string, parts: readonly string[]): boolean {
   const words = foldSearch(query).split(' ').filter((word) => word.length > 0);
   if (words.length === 0) return true;
-  const haystack = foldSearch(
-    [
-      entry.title.ro,
-      entry.title.en,
-      entry.title.hu,
-      entry.summary.ro,
-      entry.summary.en,
-      entry.summary.hu,
-      entry.citation,
-      entry.body,
-    ].join(' '),
-  );
+  const haystack = foldSearch(parts.join(' '));
   return words.every((word) => haystack.includes(word));
+}
+
+export function matchesKnowledge(query: string, entry: KnowledgeEntry): boolean {
+  return matchesText(query, [
+    entry.title.ro,
+    entry.title.en,
+    entry.title.hu,
+    entry.summary.ro,
+    entry.summary.en,
+    entry.summary.hu,
+    entry.citation,
+    entry.body,
+  ]);
 }
